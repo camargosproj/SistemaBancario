@@ -1,12 +1,13 @@
 class Main {
   public static void main(String[] args) {
     Cliente cliente1 = new Cliente();
-    cliente1.nome = "Marcos";
+    cliente1.nome = "Marcos Camargo";
     cliente1.codigo = 1;
     System.out.println("Dados do primeiro cliente");
     System.out.println("Nome: " + cliente1.nome);
     System.out.println("Código: " + cliente1.codigo);
     System.out.println("____________________________\n");
+
     System.out.println("Teste Cartão de Credito");
     CartaoDeCredito cartao1 = new CartaoDeCredito();
     cartao1.numero = 1111111;
@@ -31,7 +32,7 @@ class Main {
     System.out.println("Teste Cliente e Cartão");
     System.out.println("Cliente 2");
     Cliente cliente2 = new Cliente();
-    cliente2.nome = "Messias";
+    cliente2.nome = "Messias Santos";
     cliente2.codigo = 2;
     System.out.println("Nome: " + cliente2.nome);
     System.out.println("Código: " + cliente2.codigo);
