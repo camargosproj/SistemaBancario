@@ -31,7 +31,7 @@ class Main {
     System.out.println("Teste Cliente e Cartão");
     System.out.println("Cliente 2");
     Cliente cliente2 = new Cliente();
-    cliente2.nome = "João";
+    cliente2.nome = "Messias";
     cliente2.codigo = 2;
     System.out.println("Nome: " + cliente2.nome);
     System.out.println("Código: " + cliente2.codigo);
@@ -44,7 +44,7 @@ class Main {
     System.out.println("Data de Validade: " +  cartao2.dataDeValidade);
     System.out.println("____________________________\n");
     cartao2.cliente = cliente2;
-    System.out.println("Dados do cliente obtidos atravez do cartão");
+    System.out.println("Dados do cliente obtidos através do cartão");
     System.out.println("Nome do Cliente: " + cartao2.cliente.nome);
     System.out.println("Código do Cliente: " +  cartao2.cliente.codigo);
     System.out.println("____________________________\n");
@@ -61,7 +61,7 @@ class Main {
     Agencia agencia2 = new Agencia();
     agencia2.numero = 2;
     System.out.println("Número da Agencia: " + agencia2.numero);
-    System.out.println("Dados do cliente obtidos atravez da conta");
+    System.out.println("Dados do cliente obtidos através da conta");
     conta2.agencia = agencia2;
     System.out.println("Número da Agencia: " + conta2.agencia.numero);
 
